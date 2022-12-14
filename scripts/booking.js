@@ -5,17 +5,17 @@
 var cost=35;
 var no=0;
 var monday=document.getElementById("monday");
-monday.addEventListener("click",function(){colorW(monday)});
+monday.addEventListener("click",function(){colorW(monday);});
 var tuesday=document.getElementById("tuesday");
-tuesday.addEventListener("click",function(){colorW(tuesday)});
+tuesday.addEventListener("click",function(){colorW(tuesday);});
 var wednesday=document.getElementById("wednesday");
-wednesday.addEventListener("click",function(){colorW(wednesday)});
+wednesday.addEventListener("click",function(){colorW(wednesday);});
 var thursday=document.getElementById("thursday");
-thursday.addEventListener("click",function(){colorW(thursday)});
+thursday.addEventListener("click",function(){colorW(thursday);});
 var friday=document.getElementById("friday");
-friday.addEventListener("click",function(){colorW(friday)});
+friday.addEventListener("click",function(){colorW(friday);});
 var clearButton=document.getElementById("clear-button");
-clearButton.addEventListener("click",removeF)
+clearButton.addEventListener("click",removeF);
 var half=document.getElementById("half");
 half.addEventListener("click",halfC);
 var full=document.getElementById("full");
